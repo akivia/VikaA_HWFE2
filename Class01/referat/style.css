@@ -1,0 +1,38 @@
+#alltext{
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin:45px auto 25px;
+    border: 1px solid;
+    background-color: #fff;
+    width: 797px;
+    height: 1127px;
+    padding-left: 100px;
+}
+#university{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+    margin: auto;
+}
+#subjectName{
+    text-align: center; 
+    margin-top: 300px;
+}
+#referatName{
+    font-weight: bold;
+}
+#personInformation{
+    width: 410px;
+    margin-top: 70px;
+    margin-right:10px;
+    margin-left: auto;
+    line-height: 7px;
+   }
+#name{
+    text-decoration: underline;
+}
+#city{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 240px;
+}
