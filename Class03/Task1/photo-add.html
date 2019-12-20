@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Страница создания нового поста</title>
+    <link rel="stylesheet" href="feed.html">
+</head>
+<body>
+    <header>
+        <img src="img/logotip.jpg">
+        <p>You can find like-minded people and sophisticated travellers on this website! </p>
+    </header>
+  <nav>
+  <a href="feed.html">Страница ленты</a>
+  </nav>
+  <form>
+  <label>Добавить пост:<br>
+    <textarea cols="60" rows="5" name="post" placeholder="Текст поста"> </textarea>
+  </label>
+
+  <form id="add files" method="post" action="feed.html">
+    <p>Вложить файл </p> <br>
+			<input type="file" name="img" accept="image/jpeg,image/png,image/gif,video/mp4">
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
+		</form>
+</body>
+</html>
