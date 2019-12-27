@@ -1,0 +1,21 @@
+.body{
+    margin: 0px;
+}
+
+.load{
+    border: 1px solid blueviolet;
+    height: 15px;
+    width: 280px;
+    background-color: white;
+    
+
+ 
+}
+.loading{
+    position: relative;
+    display: inline-block;
+    width: 72%;
+    background-color: cornflowerblue;
+    height: 15px;
+}
+
