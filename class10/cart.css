@@ -1,0 +1,99 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  padding: 5px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 10px;
+  position: relative;
+}
+
+nav ul li {
+  margin: 0px -7px 0 0;
+  display: inline-block;
+  background-color: rgb(100, 204, 100);
+
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: yellow;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 70%;
+
+}
+
+nav ul li:hover>ul {
+  display: block;
+}
+
+nav ul ul li {
+  min-width: 70px;
+  float: none;
+  display: list-item;
+  position: relative;
+  background-color: rgb(172, 255, 197);
+}
+
+li>a:after {
+  content: ' ‣';
+}
+
+li>a:only-child:after {
+  content: '';
+}
+
+
+label span {
+  font-weight: 800;
+
+}
+
+iframe {
+  display: none;
+}
+
+form {
+  border: 2px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: 0;
+  padding: 0 15px 15px 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+div.adress {
+  display: none;
+}
+
+input[name="1"]:checked+div.adress {
+  display: block;
+}
