@@ -13,6 +13,7 @@
     <header>
         <h1>TopTools</h1>
     </header>
+
     <nav>
         <ul>
             <li><a href="">Бытовая техника</a>
@@ -26,6 +27,7 @@
                     <li><a href="#">Сушилки для обуви</a></li>
                 </ul>
             </li>
+
             <li><a href="">Техника для кухни</a>
                 <ul>
                     <li><a href="#">Холодильники</a></li>
@@ -37,6 +39,7 @@
                     <li><a href="#">Микроволновые печи</a></li>
                 </ul>
             </li>
+
             <li><a href="">Компьютерная техника</a>
                 <ul>
                     <li><a href="#">Ноутбуки</a></li>
@@ -46,6 +49,7 @@
                     <li><a href="#">Серверное оборудование</a></li>
                 </ul>
             </li>
+
             <li><a href="">Корзина</a></li>
         </ul>
     </nav>
@@ -64,23 +68,24 @@
             </p>
             <p>Выберите способ доставки:</p>
             <p>
-
-                <input type="radio" name="1" value="1">Самовывоз со склада по <a id="address1" href="#">адресу</a>
-
-                <iframe
-                    src="https://www.google.ru/maps/place/%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0+15,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.9214835,27.4349793,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbc4d02dfc695b:0x707c511e22d7b1a3!8m2!3d53.9214804!4d27.437168"
-                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <label>
+                    <input type="radio" name="delivery" value="1">Самовывоз со склада по <a id="address1"
+                        href="#">адресу</a>
+                    <iframe id="map"
+                        src="https://www.google.ru/maps/place/%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0+15,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.9214835,27.4349793,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbc4d02dfc695b:0x707c511e22d7b1a3!8m2!3d53.9214804!4d27.437168"
+                        width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </label>
             </p>
 
 
-            <label for="input1">
-                <input type="radio" id="input1" name="1" value="2">
+            <label>
+                <input type="radio" id="courier" name="delivery" value="2">
                 Курьером по Минску
-                <div class="adress"> Адрес доставки: <input type="text">
-                </div>
+                <div class="adress"> Адрес доставки: <input type="text"> </div>
             </label>
 
             <br>
+
 
             <textarea cols="30" rows="10" placeholder="Комментарий к заказу"></textarea> <br><br>
 
