@@ -1,0 +1,17 @@
+.flex__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input [type="search"] {
+    width: 10px;
+    height: 2px;
+    padding: 50px;
+}
+
+.menu {
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+}

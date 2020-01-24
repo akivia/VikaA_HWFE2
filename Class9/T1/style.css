@@ -19,3 +19,8 @@
     height: 15px;
 }
 
+span {
+    position: absolute;
+    left: 45%;
+}
+
