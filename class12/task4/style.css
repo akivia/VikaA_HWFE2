@@ -4,14 +4,19 @@
     justify-content: space-around;
 }
 
-input [type="search"] {
-    width: 10px;
+#form-search {
+    width: 230px;
     height: 2px;
-    padding: 50px;
+    padding: 10px;
 }
 
-.menu {
+#menu {
     text-decoration: none;
     display: flex;
     padding: 15px;
+}
+
+#input__submit {
+    margin-left: -15px;
+    padding: 10px;
 }

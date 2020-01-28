@@ -1,5 +1,5 @@
 
-#checkbox__input{
+.check__input {
     display: none;
   }
   
@@ -8,9 +8,10 @@
     height: 100px;
     width: 100px;
     background-image: url(images/uncheck.png);
+    
   }
-
-  #checkbox__input:checked ~ span {
+  
+  .check__input:checked ~ span {
     display: block;
     height: 100px;
     width: 100px;

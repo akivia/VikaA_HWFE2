@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#section{
+    flex: 100%;
+    box-sizing: border-box;
+}
+#section_small{
+    flex: 50%;
+    flex-direction: column ;
+}
+
+#img{
+    width: 200px;
+    height: 200px;
+}

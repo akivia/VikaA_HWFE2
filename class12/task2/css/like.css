@@ -9,15 +9,15 @@ body{
      
 }
 .a__like:hover{
-    color: yellow; 
+    color: red; 
 }
 
 #input__like {
     display: none;
 }
 
-#input__like :checked+.a__like{
-background-color: teal;
+#input__like:checked+.a__like{
+color:green;
 }
 #input__like:checked:hover+.a__like{
     opacity: 30%;

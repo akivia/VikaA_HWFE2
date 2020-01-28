@@ -1,11 +1,12 @@
-.body {
+body {
     margin: 0;
     padding: 0;
 }
 
 .beach {
-    height: 1000px;
+    border: solid green 5px;
+    display: block;
+    height: 100vh;
     width: 100%;
-    background-image: url("img/sky.jpg"), repeat, cover, url("img/sun.png") absolute no-repeat right: 30px, left: 30px, url("img/sea.jpg") no-repeat bottom;
-    background-size: cover;
+    background: url("img/sun.png") no-repeat top right/10%, url("img/sea.jpg") no-repeat bottom/100% 30% , url("img/sky.jpg") repeat-x center/100% ;
 }
