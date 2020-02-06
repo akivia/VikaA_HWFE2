@@ -1,26 +1,58 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#container{
+#container {
     display: flex;
     justify-content: flex-start;
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    height: 1000px;
 }
 
-#section{
-    flex: 100%;
-    box-sizing: border-box;
-}
-#section_small{
-    flex: 50%;
-    flex-direction: column ;
+
+#section_small {
+    flex-direction: column;
+    display: flex;
+    justify-content: stretch;
+
 }
 
-#img{
-    width: 200px;
-    height: 200px;
+#spain {
+    background-color: yellow;
+    width: 400px;
+    height: 860px;
+}
+
+#italy {
+    background-color: rgb(255, 166, 0);
+}
+
+#poland {
+    background-color: rgb(25, 73, 161);
+}
+
+#usa {
+    background-color: rgb(207, 23, 69);
+}
+
+#china {
+    background-color: rgb(255, 81, 0);
+    width: 400px;
+    height: 860px;
+}
+
+#india {
+    background-color: rgb(26, 156, 21);
+}
+
+img {
+    width: 300px;
+    height: 270px;
+    margin: 10px;
+}
+p {
+    margin: 10px;
 }

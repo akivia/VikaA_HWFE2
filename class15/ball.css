@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.checkbox_ball_wrap {
+    width: 100%;
+    height: 1000px;
+}
+
+.checkbox_ball {
+    display: none;
+}
+
+.ball {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(https://www.freeiconspng.com/download/26384);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-property: width;
+    transition-duration: 3s; 
+}
+
+.checkbox_ball:checked ~ .ball {
+    width: 90%;
+    
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transform:  rotate(720deg);
+    
+}
